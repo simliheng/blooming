@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>All Tips</h1>
+<ul>
+    {% for tip in tips %}
+    <li>{{ tip.title }} - <a href="{{ url_for('tip_detail', tip_id=tip.id) }}">View Detail</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', 'Times New Roman', serif;
+}
+
+.navbar {
+    background-color: #008CBA;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.post-title, .post-subtitle {
+    color: #008CBA;
+}
+
+.post-meta a {
+    color: #006994;
+}
+
+.footer {
+    padding: 1.5rem 0;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
+.hero {
+    background-image: url("{{ url_for('static', filename='images/background-image.jpg') }}");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}

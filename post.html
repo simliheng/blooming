@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %} Post Title - Blooming Flower Shop {% endblock %}
+
+{% block content %}
+    <div class="col-md-10 col-lg-8 col-xl-7">
+        <!-- Post Content-->
+        <article>
+            <header class="mb-4">
+                <h1 class="fw-bolder mb-1">Discover Our New Spring Collection!</h1>
+                <div class="text-muted fst-italic mb-2">Posted on March 20, 2024 by Blooming Flower Shop</div>
+            </header>
+
+            <!-- Preview image-->
+            <figure class="mb-4"><img class="img-fluid rounded" src="images/spring-collection.jpg" alt="Spring Flower Collection"></figure>
+
+            <!-- Post content-->
+            <section class="mb-5">
+                <p class="fs-5 mb-4">Spring is here, and with it comes the most beautiful selection of flowers to brighten your home, celebrate with friends, or simply enjoy the wonders of nature. Our Spring Collection features vibrant tulips, sweet-smelling roses, exotic lilies, and many more of nature's finest blooms.</p>
+
+                <h2 class="fw-bolder mb-4 mt-5">Why You'll Love Our Spring Flowers</h2>
+                <p class="fs-5 mb-4">Our flowers are sourced from sustainable farms and hand-picked to ensure freshness and beauty. Whether you're looking for a small bouquet or a grand arrangement, our spring collection offers something for everyone.</p>
+
+                <p class="fs-5 mb-4">Here’s a sneak peek at what’s included:</p>
+                <ul>
+                    <li>Fresh Tulip Bouquets in various vibrant colors</li>
+                    <li>Elegant Rose Arrangements in pink, red, and white</li>
+                    <li>Orchid plants perfect for home decor</li>
+                    <li>Mixed flower baskets to suit any occasion</li>
+                </ul>
+
+                <h2 class="fw-bolder mb-4 mt-5">Order Your Spring Flowers Today!</h2>
+                <p class="fs-5 mb-4">Browse our full Spring Collection online or visit us in-store. We offer free same-day delivery within the city and custom arrangements to suit any occasion. Don’t miss out on this season’s freshest flowers!</p>
+            </section>
+        </article>
+        
+        <!-- Comments section (optional) -->
+        <section>
+            <div class="card bg-light">
+                <div class="card-body">
+                    <!-- Comment form-->
+                    <form class="mb-4">
+                        <textarea class="form-control" rows="3" placeholder="Join the conversation and leave a comment!"></textarea>
+                    </form>
+                    <!-- Single comment-->
+                    <div class="d-flex mb-4">
+                        <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                        <div class="ms-3">
+                            <div class="fw-bold">John Doe</div>
+                            I absolutely love your flowers! I ordered the tulip bouquet, and it was stunning!
+                        </div>
+                    </div>
+                    <!-- Single comment-->
+                    <div class="d-flex">
+                        <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                        <div class="ms-3">
+                            <div class="fw-bold">Jane Smith</div>
+                            The spring collection is amazing! I can't wait to order more for my event.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock %}
